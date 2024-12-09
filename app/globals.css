@@ -462,3 +462,40 @@
 }
 
 
+
+/* View Mode Toggle */
+.grid-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-card {
+  display: flex;
+  align-items: center;
+}
+
+.file-card {
+  border: 1px solid lightgray;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  background: rgb(0, 71, 129);
+  border-radius: 4px;
+  color: white;
+}
+
+.btn-active {
+  background: rgb(27, 1, 52);
+  color: white;
+}
+
+
+
+

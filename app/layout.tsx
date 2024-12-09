@@ -27,6 +27,7 @@ export default function RootLayout({
         className={`${poppins.variable} font-poppins antialiased`}
       >
         {children}
+       
       </body>
     </html>
   );

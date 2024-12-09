@@ -40,7 +40,6 @@ export const getFileType = (fileName: string) => {
   const documentExtensions = [
     "pdf",
     "doc",
-    "mp3",
     "docx",
     "txt",
     "xls",
@@ -111,9 +110,12 @@ export const getFileIcon = (
       return "/assets/icons/file-csv.svg";
     case "txt":
       return "/assets/icons/file-txt.svg";
+    case "ts":
+      return "/assets/icons/file-other.svg";
     case "xls":
     case "xml":
     case "xlsx":
+    
       return "/assets/icons/file-document.svg";
     // Image
     case "svg":
@@ -130,7 +132,7 @@ export const getFileIcon = (
     case "3gp":
       return "/assets/icons/file-video.svg";
     // Audio
-    case "mp3":
+    
     case "mpeg":
     case "wav":
     case "aac":
@@ -138,6 +140,7 @@ export const getFileIcon = (
     case "ogg":
     case "wma":
     case "m4a":
+    case "mp3":
     case "aiff":
     case "alac":
       return "/assets/icons/file-audio.svg";

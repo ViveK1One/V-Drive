@@ -20,7 +20,9 @@ const Sidebar = ({fullName, avatar,email}: Props) => {
 
 const pathname =usePathname();
 
-  return ( <aside  suppressHydrationWarning={true} className='sidebar'>
+  return ( 
+  
+  <aside  suppressHydrationWarning={true} className='sidebar'>
     
     <Link href="/">
 
